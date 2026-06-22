@@ -277,7 +277,7 @@ const EnrollmentForm: React.FC = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Calendar className="w-5 h-5 text-red-600" />
-                <span className="text-gray-700"><strong>Last Date for Registration:</strong> 22 June 2026</span>
+                <span className="text-gray-700"><strong>Last Date for Registration:</strong> 24 June 2026</span>
               </div>
               <div className="flex items-center gap-3">
                 <Users className="w-5 h-5 text-orange-600" />
@@ -680,7 +680,7 @@ const EnrollmentForm: React.FC = () => {
             {/* Footer */}
             <div className="text-center mt-8 text-gray-500 text-sm border-t pt-4">
               <p>© 2026 Tridiotech. All rights reserved.</p>
-              <p className="mt-1">Last Date for Registration: 30/06/2026</p>
+              <p className="mt-1">Last Date for Registration: 24/06/2026</p>
             </div>
           </div>
         </div>
