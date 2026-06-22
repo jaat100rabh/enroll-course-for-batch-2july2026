@@ -370,7 +370,7 @@ const EnrollmentForm: React.FC = () => {
               <div className="space-y-4">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-1">
-                    College Name <span className="text-red-600">*</span>
+                  School Name / College Name <span className="text-red-600">*</span>
                   </label>
                   <input
                     type="text"
@@ -406,7 +406,9 @@ const EnrollmentForm: React.FC = () => {
                     {...register('semester')}
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition"
                   >
-                    <option value="">Select Semester</option>
+                    <option value="">Select Semester / Class</option>
+                    <option value="1">11 th</option>
+                    <option value="1">12 th</option>
                     <option value="1">1st Semester</option>
                     <option value="2">2nd Semester</option>
                     <option value="3">3rd Semester</option>
